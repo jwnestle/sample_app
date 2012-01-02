@@ -7,8 +7,13 @@ class CreateUsers < ActiveRecord::Migration
       t.timestamps
     end
   end
+<<<<<<< HEAD
 
   def self.down
     drop_table :users
   end
+=======
+  def self.down
+    drop_table :users
+>>>>>>> modeling-users
 end
